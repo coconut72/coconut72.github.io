@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系 - 设计师个人作品集</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">DESIGNER</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="about.html">关于</a></li>
+                <li><a href="portfolio.html">作品</a></li>
+                <li><a href="contact.html">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <!-- 页面标题 -->
+        <section class="page-header">
+            <div class="container">
+                <h1>联系我</h1>
+                <p>如果您有项目合作或任何问题，欢迎随时联系</p>
+            </div>
+        </section>
+
+        <!-- 联系信息 -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <h3>邮箱</h3>
+                        <p>hello@designer.com</p>
+                        <p>我通常会在24小时内回复</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <h3>电话</h3>
+                        <p>+86 138 0000 0000</p>
+                        <p>工作日 9:00-18:00</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <h3>地址</h3>
+                        <p>北京市朝阳区</p>
+                        <p>欢迎预约面谈</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系表单 -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="form-container">
+                    <h2>发送消息</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">姓名 *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">邮箱 *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">公司/组织</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="project-type">项目类型</label>
+                            <select id="project-type" name="project-type">
+                                <option value="">请选择项目类型</option>
+                                <option value="ui-design">UI设计</option>
+                                <option value="ux-design">UX设计</option>
+                                <option value="brand-design">品牌设计</option>
+                                <option value="web-design">网页设计</option>
+                                <option value="consultation">设计咨询</option>
+                                <option value="other">其他</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">预算范围</label>
+                            <select id="budget" name="budget">
+                                <option value="">请选择预算范围</option>
+                                <option value="under-10k">10万以下</option>
+                                <option value="10k-50k">10-50万</option>
+                                <option value="50k-100k">50-100万</option>
+                                <option value="over-100k">100万以上</option>
+                                <option value="discuss">面议</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">项目描述 *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="请详细描述您的项目需求、目标用户、功能要求等信息..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">项目时间线</label>
+                            <input type="text" id="timeline" name="timeline" placeholder="期望的项目完成时间">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" value="yes">
+                                <span class="checkmark"></span>
+                                订阅设计资讯和最新作品
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- 常见问题 -->
+        <section class="faq-section">
+            <div class="container">
+                <h2>常见问题</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3>您接受什么类型的项目？</h3>
+                        <p>我主要接受UI/UX设计、品牌设计、网页设计等项目。如果您有特殊需求，也欢迎咨询讨论。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>项目周期通常是多久？</h3>
+                        <p>项目周期取决于项目复杂度和需求。一般小型项目2-4周，中型项目1-2个月，大型项目3-6个月。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>您的工作流程是怎样的？</h3>
+                        <p>我的工作流程包括需求分析、用户研究、概念设计、原型制作、视觉设计、测试优化等阶段。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>是否提供后续维护服务？</h3>
+                        <p>是的，我提供项目完成后的维护和优化服务，确保设计能够持续满足业务需求。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 社交媒体 -->
+        <section class="social-section">
+            <div class="container">
+                <h2>关注我</h2>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <span class="social-icon">📱</span>
+                        <span>微信</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="social-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="social-icon">🐦</span>
+                        <span>微博</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="social-icon">📷</span>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>&copy; 2024 设计师姓名. 保留所有权利.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">关于</a>
+                <a href="portfolio.html">作品</a>
+                <a href="contact.html">联系</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html> 
